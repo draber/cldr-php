@@ -17,7 +17,7 @@
         "php": "^5.3.3 || ^7.0",
         "doctrine/inflector": "~1.1"
     },
-    "require-dev": {,
+    "require-dev": {
         "symfony/console": "~3.3"
     },
     "autoload": {

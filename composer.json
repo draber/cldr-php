@@ -1,0 +1,28 @@
+{
+    "name": "draber/cldr-php",
+    "description": "PHP implementation of the CDLR packages",
+	  "keywords": [
+		    "i18n",
+		    "cldr",
+		    "intl"
+	  ],
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Dieter Raber"
+        }
+    ],
+    "require": {
+        "php": "^5.3.3 || ^7.0",
+        "doctrine/inflector": "~1.1"
+    },
+    "require-dev": {,
+        "symfony/console": "~3.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "draber\\cldr-php\\": "cldr/"
+        }
+    }
+}

@@ -1,0 +1,45 @@
+{
+  "dependencies": {
+    "@bower_components/cldr-segments-modern": "unicode-cldr/cldr-segments-modern#master",
+    "@bower_components/cldr-core": "unicode-cldr/cldr-core#master",
+    "@bower_components/cldr-cal-buddhist-modern": "unicode-cldr/cldr-cal-buddhist-modern#master",
+    "@bower_components/cldr-dates-modern": "unicode-cldr/cldr-dates-modern#master",
+    "@bower_components/cldr-numbers-modern": "unicode-cldr/cldr-numbers-modern#master",
+    "@bower_components/cldr-cal-coptic-modern": "unicode-cldr/cldr-cal-coptic-modern#master",
+    "@bower_components/cldr-cal-indian-modern": "unicode-cldr/cldr-cal-indian-modern#master",
+    "@bower_components/cldr-cal-hebrew-modern": "unicode-cldr/cldr-cal-hebrew-modern#master",
+    "@bower_components/cldr-cal-persian-modern": "unicode-cldr/cldr-cal-persian-modern#master",
+    "@bower_components/cldr-cal-roc-modern": "unicode-cldr/cldr-cal-roc-modern#master",
+    "@bower_components/cldr-cal-chinese-modern": "unicode-cldr/cldr-cal-chinese-modern#master",
+    "@bower_components/cldr-cal-dangi-modern": "unicode-cldr/cldr-cal-dangi-modern#master",
+    "@bower_components/cldr-cal-hebrew-full": "unicode-cldr/cldr-cal-hebrew-full#master",
+    "@bower_components/cldr-cal-coptic-full": "unicode-cldr/cldr-cal-coptic-full#master",
+    "@bower_components/cldr-cal-buddhist-full": "unicode-cldr/cldr-cal-buddhist-full#master",
+    "@bower_components/cldr-cal-japanese-modern": "unicode-cldr/cldr-cal-japanese-modern#master",
+    "@bower_components/cldr-cal-indian-full": "unicode-cldr/cldr-cal-indian-full#master",
+    "@bower_components/cldr-cal-persian-full": "unicode-cldr/cldr-cal-persian-full#master",
+    "@bower_components/cldr-cal-roc-full": "unicode-cldr/cldr-cal-roc-full#master",
+    "@bower_components/cldr-cal-chinese-full": "unicode-cldr/cldr-cal-chinese-full#master",
+    "@bower_components/cldr-cal-ethiopic-modern": "unicode-cldr/cldr-cal-ethiopic-modern#master",
+    "@bower_components/cldr-cal-japanese-full": "unicode-cldr/cldr-cal-japanese-full#master",
+    "@bower_components/cldr-cal-dangi-full": "unicode-cldr/cldr-cal-dangi-full#master",
+    "@bower_components/cldr-units-modern": "unicode-cldr/cldr-units-modern#master",
+    "@bower_components/cldr-cal-ethiopic-full": "unicode-cldr/cldr-cal-ethiopic-full#master",
+    "@bower_components/cldr-numbers-full": "unicode-cldr/cldr-numbers-full#master",
+    "@bower_components/cldr-units-full": "unicode-cldr/cldr-units-full#master",
+    "@bower_components/cldr-misc-modern": "unicode-cldr/cldr-misc-modern#master",
+    "@bower_components/cldr-localenames-modern": "unicode-cldr/cldr-localenames-modern#master",
+    "@bower_components/cldr-cal-islamic-modern": "unicode-cldr/cldr-cal-islamic-modern#master",
+    "@bower_components/cldr-misc-full": "unicode-cldr/cldr-misc-full#master",
+    "@bower_components/cldr-localenames-full": "unicode-cldr/cldr-localenames-full#master",
+    "@bower_components/cldr-dates-full": "unicode-cldr/cldr-dates-full#master",
+    "@bower_components/cldr-cal-islamic-full": "unicode-cldr/cldr-cal-islamic-full#master",
+    "@bower_components/cldr-rbnf": "unicode-cldr/cldr-rbnf#master"
+  },
+  "engines": {
+    "yarn": ">= 1.0.0"
+  },
+  "scripts": {
+    "postinstall": "node -e \"try { require('fs').symlinkSync(require('path').resolve('node_modules/@bower_components'), 'bower_components', 'junction') } catch (e) { }\""
+  }
+}
